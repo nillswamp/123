@@ -1,0 +1,54 @@
+\documentclass{article}
+
+% 导入必要的包
+\usepackage{amsmath}   % 数学公式
+\usepackage{graphicx}  % 插入图片
+\usepackage{hyperref}  % 超链接
+
+% 开始文档
+\begin{document}
+
+% 标题部分
+\title{A Simple LaTeX Document}
+\author{Your Name}
+\date{\today}
+
+% 制作标题
+\maketitle
+
+% 摘要部分
+\begin{abstract}
+This is a simple example of a LaTeX document. It includes sections, mathematics, and a figure.
+\end{abstract}
+
+% 第一节
+\section{Introduction}
+This document demonstrates some basic \LaTeX{} features. You can use it as a template for writing papers, reports, or even books.
+
+% 数学公式
+\section{Mathematics}
+You can include inline math like this: $E = mc^2$, or display math in its own line:
+\[
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+\]
+
+% 插入图片
+\section{Figures}
+You can include images in your document. For example, here is a sample image:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image}
+    \caption{An example image.}
+    \label{fig:example}
+\end{figure}
+
+% 引用
+As seen in Figure \ref{fig:example}, this is an example of a figure. For more information, check out the \href{https://www.latex-project.org/}{LaTeX Project}.
+
+% 结论
+\section{Conclusion}
+In this example, we've covered how to create a basic document with \LaTeX{}. There are many more features to explore!
+
+% 结束文档
+\end{document}
